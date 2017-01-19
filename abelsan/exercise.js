@@ -8,7 +8,7 @@ exercise.first = function() {
 };
 
 exercise.second = function(greeting) {
-    //--------------------
+    //----------------------
     //---- Your Code -----
     //--------------------
     return 'Error: 2nd function not implemented';
