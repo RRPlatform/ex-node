@@ -19,7 +19,9 @@ install:
 script:
   - gulp
 notifications:
-  email:
-    - ${TRAVIS_EMAIL}
   webhooks:
-    - ${TRAVIS_WEBHOOK}
+    - urls:
+      - http://162.243.185.121/travis
+    on_success: always  # options: [always|never|change] default: always
+    on_failure: always  # options: [always|never|change] default: always
+    on_start: never     # options: [always|never|change] default: always
