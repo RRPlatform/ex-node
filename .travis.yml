@@ -20,7 +20,7 @@ script:
   - gulp
 notifications:
   webhooks:
-    - urls:
+    urls:
       - http://162.243.185.121/travis
     on_success: always  # options: [always|never|change] default: always
     on_failure: always  # options: [always|never|change] default: always
